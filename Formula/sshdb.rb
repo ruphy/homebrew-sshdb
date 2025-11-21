@@ -1,8 +1,8 @@
 class Sshdb < Formula
   desc "Keyboard-first SSH library and launcher TUI"
   homepage "https://github.com/ruphy/sshdb"
-  url "https://github.com/ruphy/sshdb/archive/refs/tags/v0.16.5.tar.gz"
-  sha256 "12056fdf87a726b4cc610d0172fb65e5a20d4ecb23748bb6281ab826f94266ce"
+  url "https://github.com/ruphy/sshdb/archive/refs/tags/v0.16.6.tar.gz"
+  sha256 "a0493ddf3a27d9e14ba123992bffeb4ed714b547fd47c215140994f487a3f5ad"
   license "GPL-3.0-or-later"
   depends_on "rust" => :build
 
