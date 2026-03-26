@@ -1,24 +1,24 @@
 class Sshdb < Formula
   desc "Keyboard-first SSH library and launcher TUI"
   homepage "https://github.com/ruphy/sshdb"
-  version "0.17.0"
+  version "0.18.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/ruphy/sshdb/releases/download/v#{version}/sshdb-macos-aarch64.tar.gz"
-      sha256 "2b76a4a256d0313cc0a45b2866d877d04104f10d5e5614282614df6744af56da"
+      sha256 "49f7481b41192de41ab9472673ccaea4aae3d14c591921d00a4518a3c609e018"
     end
     on_intel do
       url "https://github.com/ruphy/sshdb/releases/download/v#{version}/sshdb-macos-x86_64.tar.gz"
-      sha256 "7443ebf7bb0b10437c61d8c7dd4fdade7c8fddb5061ab77d8819be54d1e1a179"
+      sha256 "a03e54e0855db774d3ae6473261080c0728b4c73db9fd7fd27aa47f4cccad1de"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ruphy/sshdb/releases/download/v#{version}/sshdb-linux-x86_64.tar.gz"
-      sha256 "4381caf3239ff0bd6185682c735e9c35cb704a99acfed3acb4840a87e4230166"
+      sha256 "946b800b5e9d2993dc4b2a62113c8ae6e48135e24951a18cac0446432679f6d2"
     end
   end
 
